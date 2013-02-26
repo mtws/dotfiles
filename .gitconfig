@@ -1,6 +1,5 @@
 [user]
-	name = Mats T
-	email = mats.tuovinen@gmail.com
+  name = Mats T
+  email = mats.tuovinen@gmail.com
 [core]
-    editor = vim
-    excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
