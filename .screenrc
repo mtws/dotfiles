@@ -1,3 +1,5 @@
+scrollback 10000
+
 # no annoying audible bell, please
 vbell off
 
