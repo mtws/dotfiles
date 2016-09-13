@@ -1,0 +1,44 @@
+"*":
+  core:
+    audioBeep: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "vim-mode"
+      "linter-eslint"
+      "auto-detect-indentation"
+      "emmet"
+      "language-babel"
+      "linter-sass-lint"
+      "linter-htmlhint"
+      "linter-jshint"
+      "linter-php"
+      "linter"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "4b4ee9ed-668d-def1-cdc4-3f8d1532d8f8"
+  "expand-region": {}
+  "language-babel":
+    autoIndentJSX: true
+  linter: {}
+  "linter-eslint": {}
+  "linter-jshint":
+    lintInlineJavaScript: true
+    lintJSXFiles: true
+  "linter-sass-lint":
+    noConfigDisable: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  pigments: {}
+  "project-plus": {}
+  react: {}
+  welcome:
+    showOnStartup: false
