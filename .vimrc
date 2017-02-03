@@ -40,6 +40,7 @@ Plugin 'alvan/vim-closetag'
 Plugin 'terryma/vim-expand-region'
 Plugin 'Yggdroot/indentLine'
 Plugin 'yonchu/accelerated-smooth-scroll'
+Plugin 'lepture/vim-jinja'
 "Plugin 'elzr/vim-json'
 "Plugin 'tpope/vim-surround'
 
@@ -58,6 +59,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+
+
+set encoding=utf-8
 
 
 
@@ -95,6 +99,7 @@ set tm=500
 au BufRead,BufNewFile *.scss set filetype=css
 au BufRead,BufNewFile *.md set filetype=markdown
 au BufRead,BufNewFile *.hbs set filetype=html
+au BufNewFile,BufRead *.nunjucks set ft=jinja
 
 
 
@@ -307,7 +312,15 @@ let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.js,*.nunjucks"
 " => Vim-airline plugin options
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#whitespace#enabled = 1
+" let g:airline#extensions#whitespace#enabled = 1
+
+let g:airline_theme='solarized'
+" let g:airline_theme='powerlineish'
+
+" Set powerline fonts. Fonts should be installed and then activated in iTerm2:
+" Profile -> Text -> Non-ASCII Font = 12pt DejaVu Sans Mono for Powerline
+" http://vi.stackexchange.com/a/3363
+let g:airline_powerline_fonts = 1
 
 
 
